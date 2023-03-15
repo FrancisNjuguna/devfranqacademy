@@ -9,7 +9,7 @@ function signIn(){
 
   // Parameters to pass to OAuth 2.0 endpoint.
   var params = {'client_id':'1051475657464-pp1i0tes8r3m8jmhrqjagdftfbs9trba.apps.googleusercontent.com',
-                'redirect_uri':'http://127.0.0.1:5500/devteachescode/index.html',
+                'redirect_uri':'https://devfranqacademy.vercel.app/',
                 'response_type':'token',
                 'scope':'https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/youtube.readonly',
                 'include_granted_scopes':'true',
