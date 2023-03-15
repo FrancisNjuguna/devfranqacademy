@@ -9,37 +9,13 @@ import Blog from "./components/blog/Blog"
 import Contact from "./components/contact/Contact"
 import Footer from "./components/common/footer/Footer"
 import Home from "./components/home/Home"
-import LoginButton from "./components/LoginButton";
-import LogoutButton from "./components/LogoutButton";
-import Profile from "./components/Profile";
-import { useAuth0 } from "@auth0/auth0-react";
-
-function App() {
-  const { isLoading, error } = useAuth0();
-
-  return (
-    <main className="column">
-      <h1>Auth0 Login</h1>
-      {error && <p>Authentication Error</p>}
-      {!error && isLoading && <p>Loading...</p>}
-      {!error && !isLoading && (
-        <>
-          <LoginButton />
-          <LogoutButton />
-          <Profile />
-        </>
-      )}
-    </main>
-  );
-}
-
 function App() {
   return (
     <>
       <Router>
         <Header />
         <Switch>
-          <Route exact path='/' component={Home} />
+          <Route exact path='/home' component={Home} />
           <Route exact path='/about' component={About} />
           <Route exact path='/courses' component={CourseHome} />
           <Route exact path='/team' component={Team} />
