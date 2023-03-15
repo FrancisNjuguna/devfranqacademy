@@ -51,7 +51,7 @@ const CoursesCard = () => {
               <button className='outline-btn' onClick={() => { 
     if (val.id === 2) { 
       window.addEventListener('click', function(){ 
-          window.location.href = "../../../quiz App/index.html"; 
+          window.location.href = "https://devfranqacademy.vercel.app/quiz App/index.html"; 
       }); 
   } else if (val.id === 3) { 
         window.location.href = "www.google.com"; 
