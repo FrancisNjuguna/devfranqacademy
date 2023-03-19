@@ -1,3 +1,7 @@
+This ReactJS personal coding learning platform is designed to help users learn and master the fundamentals of ReactJS. It provides a comprehensive set of tutorials, exercises, and projects that will help users become proficient in ReactJS. The platform also offers a variety of resources such as video tutorials, articles, and forums to help users stay up-to-date with the latest trends in ReactJS development. Additionally, the platform provides an interactive coding environment where users can practice their skills and get feedback from experienced developers. With this platform, users can easily learn the basics of ReactJS and build their own applications with confidence. The platform also offers a wide range of tools and libraries to help users create powerful applications quickly and efficiently. With this platform, users can take their coding skills to the next level and become proficient in ReactJS development.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
